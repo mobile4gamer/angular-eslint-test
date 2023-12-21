@@ -17,5 +17,6 @@ export class AppComponent {
     //Add 'implements OnInit' to the class.
     const add = (a, b) => a + b;
     const test = false;
+    
   }
 }

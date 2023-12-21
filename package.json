@@ -16,12 +16,31 @@
     }
   },
   "lint-staged": {
-    "*.html": ["prettier --write", "git add"],
-    "*.css": ["stylelint --fix", "prettier --write", "git add"],
-    "*.js": ["eslint --fix", "git add"],
-    "*.json": ["prettier --write", "git add"],
-    "*.md": ["prettier --write", "git add"],
-    "*.ts": ["eslint --fix", "git add"]
+    "*.html": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.css": [
+      "stylelint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.md": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.ts": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "private": true,
   "dependencies": {

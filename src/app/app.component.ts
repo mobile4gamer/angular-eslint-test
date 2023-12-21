@@ -18,6 +18,5 @@ export class AppComponent {
     const add = (a, b) => a + b;
     const test = false;
     
-
   }
 }
